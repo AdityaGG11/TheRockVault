@@ -1,0 +1,476 @@
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0px;
+    background: none;
+    /* Color of the scrollbar thumb */
+    border-radius: 0px;
+    /* Roundness of the scrollbar thumb */
+    height: 0px;
+    /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: none;
+    /* Color of the scrollbar thumb when hovered */
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* .body{
+    
+} */
+.artistpage {
+    height: 60px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    display: flex;
+}
+.searchpage2{
+    height: 48px;
+    margin-top: 10px;
+    border: none;
+    /* border: 1px solid rgb(66, 66, 66); */
+    border-radius: 50px;
+    text-align:center;
+    width: 236px;
+    font-size: 14px;
+    position: relative;
+    left: 1216px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(50, 50, 50);
+    box-shadow: inset 5px 5px 100px rgb(0, 0, 0);
+    color: rgb(106, 104, 104);
+}
+.searchlogo2{
+    height: 24px;
+    position: relative;
+    left: 1175px;
+    top: 7px;
+    background-color: rgb(14, 14, 14);
+}
+.logoPage2 {
+    height: 48px;
+    width: auto;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.maincontentdiv2 {
+    height: 85vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.artistMain {
+    box-sizing: border-box;
+
+}
+
+.headDivofdesign {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(66, 11, 28);
+    box-shadow: inset 5px 5px 50px rgb(28, 3, 12);
+    box-sizing: border-box;
+    border: 1px solid rgb(157, 122, 46);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.headDivofdesign h1 {
+    color: rgb(157, 122, 46);
+    font-size: 34px;
+    width: fit-content;
+    padding: 0;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 10px;
+    top: 8px;
+    text-shadow: 1px 1px 2px black;
+}
+.midDivofDesign{
+    border-radius: 10px;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    box-sizing: border-box;
+}
+.leftSectionofDivDesign{
+    border-radius: 10px;
+    width: 75%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.topSectionofDivDesign{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 5px;
+}
+.topLeftSection{
+    height: 100%;
+    width: 75%;
+    background-color: rgb(54, 15, 30);
+    box-shadow: inset 50px 30px 500px rgb(0, 0, 0);
+    /* background-color: rgb(19, 19, 19); */
+    box-sizing: border-box;
+    /* border: 2px solid rgb(66, 66, 66); */
+    border: 1px solid rgb(157, 122, 46);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: scroll;
+    width: auto;
+    display: flex;
+    overflow-x: scroll;
+    /* margin-bottom: 17px; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+
+    /* For WebKit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        width: 0px;
+        /* Width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none;
+        /* Background color of the scrollbar track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 0px;
+        background: none;
+        /* Color of the scrollbar thumb */
+        border-radius: 7px;
+        /* Roundness of the scrollbar thumb */
+        height: 50px;
+        /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+    }
+
+    /* ::-webkit-scrollbar-thumb:hover {
+        /* background: #666; */
+        /* Color of the scrollbar thumb when hovered
+    }  */
+}
+.HeadnNewsUtil p{
+    font-size: 12px;
+    padding: 0;
+    position: relative;
+    bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 3px;
+    color: rgb(157, 122, 46);
+    text-shadow: 1px 1px 3px black;
+}
+.headings {
+    /* color: rgb(164, 163, 163); */
+    color: rgb(157, 122, 46);
+    font-weight: bold;
+    font-size: 16px;
+    width: fit-content;
+    padding: 0;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    /* left: 10px; */
+    top: 8px;
+    text-shadow: 2px 2px 2px black;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 15px;
+    /* padding-left: 3px;
+    padding-right: 3px; */
+
+}
+.headings2 {
+    color: rgb(157, 122, 46);
+    font-weight: bold;
+    font-size: 16px;
+    width: fit-content;
+    padding: 0;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    /* left: 10px; */
+    top: 8px;
+    text-shadow: 1px 1px 2px black;
+}
+/* .topRightSection{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(26, 26, 26);
+    /* box-shadow: inset 10px 10px 500px rgb(3, 28, 18);
+    box-sizing: border-box;
+    /* border: 1px solid rgb(203, 203, 203); 
+    border-radius: 10px;
+} */
+.topartistimg{
+    height: 281px;
+    width: 282px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* border: 2px solid rgb(66, 66, 66); */
+    border: 1px solid rgb(157, 122, 46);
+    
+} 
+.botSectionofDivDesign{
+    height: 49%;
+    width: 100%;
+    background-color: rgb(54, 15, 30);
+    box-shadow: inset 50px 30px 500px rgb(0, 0, 0);
+    box-sizing: border-box;
+    /* border: 2px solid rgb(66, 66, 66); */
+    border: 1px solid rgb(157, 122, 46);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    overflow: scroll;
+    width: auto;
+    display: flex;
+    overflow-x: scroll;
+    /* margin-bottom: 17px; */
+    overflow-y: hidden;
+    box-sizing: border-box;
+
+    /* For WebKit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        width: 0px;
+        /* Width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none;
+        /* Background color of the scrollbar track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 0px;
+        background: none;
+        /* Color of the scrollbar thumb */
+        border-radius: 7px;
+        /* Roundness of the scrollbar thumb */
+        height: 50px;
+        /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+    }
+
+    /* ::-webkit-scrollbar-thumb:hover {
+        /* background: #666; */
+        /* Color of the scrollbar thumb when hovered
+    }  */
+}
+.rightSectionofDivDesign{
+    border-radius: 10px;
+    width: 25%;
+    height: 100%;
+}
+.topRightSectionofDivDesign{
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5px;
+    /* background-color: rgb(66, 11, 11);
+    box-shadow: inset 10px 10px 500px rgb(28, 3, 3); */
+    /* background-color: rgb(54, 15, 15);
+    box-shadow: inset 30px 50px 500px rgb(0, 0, 0); */
+    background-color: rgb(107, 23, 48);
+    box-shadow: inset 20px 20px 80px rgb(19, 0, 6);
+    box-sizing: border-box;
+    border: 1px solid rgb(157, 122, 46);
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* For WebKit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        width: 0px;
+        /* Width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none;
+        /* Background color of the scrollbar track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 0px;
+        background: none;
+        /* Color of the scrollbar thumb */
+        border-radius: 7px;
+        /* Roundness of the scrollbar thumb */
+        height: 50px;
+        /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+    }
+
+    /* ::-webkit-scrollbar-thumb:hover {
+        /* background: #666; */
+        /* Color of the scrollbar thumb when hovered
+    }  */
+}
+.topSongs{
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(66, 11, 11);
+    box-shadow: inset 5px 5px 50px rgb(28, 3, 3); */
+    background-color: rgb(66, 11, 33);
+    box-shadow: inset 20px 20px 80px rgb(19, 0, 5);
+    border-radius: 8px;
+    position: relative;
+    top: 24px;
+    border: 1px solid rgba(157, 122, 46, 0.593);
+    margin-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.songname{
+    background:local;
+    color: rgb(157, 122, 46);
+    /* color: rgb(213, 169, 114); */
+    align-content: center;
+    position: relative;
+    left: 10px;
+    list-style:circle;
+    width: 85%;
+    text-shadow: 2px 2px 0px black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+.songartistimg{
+    height: 100%;
+    width: 15%;
+    border-radius: 8px 0px 0px 8px;
+    box-sizing: border-box;
+    border: 2px solid rgb(157, 122, 46);
+}
+.botRightSectionofDivDesign{
+    width: 100%;
+    height: 9%;
+    background-color: rgb(66, 11, 33);
+    box-shadow: inset 5px 5px 50px rgb(28, 3, 13);
+    border: 1px solid rgb(157, 122, 46);
+    border-radius: 10px;
+}
+.buttons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left:14px;
+    padding-right:14px;
+    background: none;
+}
+.buttons :hover{
+    color: rgb(184, 133, 25);
+    font-size: 14px;
+}
+.butban {
+    text-decoration: none;
+    color: rgb(157, 122, 46);
+    font-weight: bold;
+    font-size: 13px;
+    width: fit-content;
+    padding: 0;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 15px;
+    text-shadow: 1px 1px 2px black;
+}
+.topartists2{
+    display: flex;
+    gap: 12px;
+    background: none;
+    /* background-color: rgb(19, 19, 19); */
+}
+.wholeCard{
+    position: relative;
+    top: 20px;
+    height: 230px;
+    border-radius: 7px;
+    width: 192px;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(189, 189, 189); */
+    border: 1px solid rgb(157, 122, 46);
+   
+}
+.wholeGenre{
+    position: relative;
+    top: 20px;
+    height: 230px;
+    border-radius: 7px;
+    width: 192px;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(189, 189, 189); */
+    border: 1px solid rgb(157, 122, 46);
+}
+/* .topartists2 :hover{
+    background-color:rgb(19, 19, 19);
+} */
+.cardImg{
+    height: 170px;
+    width: 172px;
+    border-radius: 26px;    
+    box-sizing: border-box;
+    /* border: 2px solid rgb(163, 162, 162); */
+    border: 1px solid rgba(157, 122, 46, 0.532);
+    padding: 6px;
+    filter: brightness(85%);
+    
+}
+.Artistname{
+    background: local;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bolder;
+    /* color: rgb(164, 163, 163); */
+    color: rgb(157, 122, 46);
+    margin-top: 3px;
+}
+.Genrename{
+    background: local;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bolder;
+    /* color: rgb(164, 163, 163); */
+    color: rgb(157, 122, 46);
+    margin-top: 11px;
+}
+.artistbutton{
+    text-decoration: none;
+}

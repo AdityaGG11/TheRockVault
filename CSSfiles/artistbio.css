@@ -1,0 +1,373 @@
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0px;
+    background: none;
+    /* Color of the scrollbar thumb */
+    border-radius: 0px;
+    /* Roundness of the scrollbar thumb */
+    height: 0px;
+    /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: none;
+    /* Color of the scrollbar thumb when hovered */
+}
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    box-sizing: border-box;
+}
+.elvisimgclass{
+    width: 359px;
+    margin: 8px;
+    border-radius: 14px;
+    height: 80px;
+    /* filter: grayscale(120%); */
+    background: none;
+}
+.elvisarticle{
+    background: none;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 110px;
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 2px 2px black;
+}.news{
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    background: none;
+}
+.news11{
+    height: 145px;
+    padding-bottom: 15px;
+    width: 100%;
+    /* background-color: rgb(164, 134, 134); */
+    background: none;    
+    border-bottom: 1px solid rgb(154, 153, 153);
+    display: flex;
+    box-sizing: border-box;
+    /* gap: 5px; */
+}
+.imageofnews{
+    width: 30%;
+}
+.newsimg{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid rgb(154, 153, 153); */
+    box-sizing: border-box;
+    /* border-radius: 8px; */
+}
+.paraofnews{
+    width: 70%;
+    background-color: rgba(18, 18, 18, 0.737);
+    /* box-shadow: inset 4px 4px 50px black; */
+    border-radius: 0px 8px 8px 0px;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.newspara{
+    background: none;
+    color: rgb(216, 215, 215);
+    font-style: italic;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 2px 1px black;
+}
+.music{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: none;
+    color: rgb(216, 215, 215);
+    border-top: 1px solid rgb(154, 153, 153);
+    border-bottom: 1px solid rgb(154, 153, 153);
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    /* font-weight: lighter; */
+}
+
+.allcontent {
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    /* background-color: rgb(181, 109, 14); */
+}
+
+.mainheader {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    align-content: center;
+    border: 1px solid rgb(154, 153, 153);
+}
+
+.mainheader h1 {
+    color: rgb(216, 215, 215);
+    background: none;
+    padding-left: 30px;
+    font-size: 38px;
+    /* font-weight: lighter; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px 2px black;
+}
+
+.maindiv {
+    height: 612px;
+    border-radius: 20px;
+    width: 100%;
+    /* background-color: rgb(31, 31, 31);    */
+    display: flex;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.left {
+    height: 100%;
+    width: 75%;
+    /* background-color: rgb(31, 31, 31); */
+    border-radius: 20px;
+    display: flex;
+    box-sizing: border-box;
+    gap: 10px;
+    flex-direction: column;
+}
+.topimg{
+    /* background: none; */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.right {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(14, 14, 14);
+    box-shadow: inset 20px 20px 500px rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 20px;
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    border: 1px solid rgb(154, 153, 153);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.top {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 55%;
+    /* background-color: rgb(31, 31, 31); */
+    border-radius: 20px;
+}
+
+.lefttop {
+    height: 100%;
+    width: 75%;
+    border-radius: 20px;
+    background-color: rgb(31, 31, 31);
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    align-content: end;
+    box-sizing: border-box;
+    border: 1px solid rgb(154, 153, 153);
+}
+
+.h11 {
+    background: none;
+    color: rgb(234, 234, 234);
+    font-size: 52px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-shadow: 3px 2px 4px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h123 {
+    background: none;
+    color: rgb(222, 218, 218);
+    font-size: 30px;
+    padding-left: 20px;
+    text-shadow: 3px 2px 4px black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.righttop {
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    animation-name: artistanimation;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-sizing: border-box;
+    padding: 2px;
+    /* border: 1px solid rgb(154, 153, 153); */
+
+}
+
+.rightimg {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(154, 153, 153);
+    filter: contrast(120%);
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    height: 45%;
+
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.leftbottom {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(31, 31, 31);
+    box-sizing: border-box;
+    border: 1px solid rgb(154, 153, 153);
+    align-content: end;
+}
+
+.rightbottom {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rgb(20, 19, 19);
+    box-shadow: inset 10px 10px 500px black;
+    border: 1px solid rgb(154, 153, 153);
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.albumcard{
+    height: 100%;
+    width: 175px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 16px;
+    object-fit: contain;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(154, 153, 153);
+    position: relative;
+    overflow: hidden;
+}
+
+.albumcardbody{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background-color: rgba(41, 42, 42, 0.49);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+}
+.albumcard:hover .albumcardbody{
+    right: 0;
+}
+.albumimg{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    border-radius: 14px;
+    /* border: 1px solid rgb(174, 174, 174); */
+    /* filter: grayscale(80%); */
+}
+
+@keyframes opacity {
+    from{
+        opacity: 0;
+}
+
+to {
+    opacity: 1;
+}
+}
+
+@keyframes artistanimation {
+
+
+    50% {
+        transform: translateX(-100px) translateY(0);
+    }
+
+    25% {
+        transform: translateX(-100px) translateY(250px);
+    }
+
+    0% {
+        transform: translateX(-100px) translateY(250px);
+    }
+}
+

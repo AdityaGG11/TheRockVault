@@ -1,0 +1,387 @@
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0px;
+    background: none;
+    /* Color of the scrollbar thumb */
+    border-radius: 0px;
+    /* Roundness of the scrollbar thumb */
+    height: 0px;
+    /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: none;
+    /* Color of the scrollbar thumb when hovered */
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: scroll;
+
+    /* For WebKit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        width: 0px;
+        /* Width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none;
+        /* Background color of the scrollbar track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 0px;
+        background: none;
+        /* Color of the scrollbar thumb */
+        border-radius: 0px;
+        /* Roundness of the scrollbar thumb */
+        height: 0px;
+        /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: none;
+        /* Color of the scrollbar thumb when hovered */
+    }
+}
+
+.logo {
+    height: 70px;
+    box-shadow: 2px 2px 8px black;
+    position: relative;
+    right: 40px;
+}
+
+.mainhead {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.home {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    right: 368px;
+    border-radius: 50px 0px 0px 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+    background-color: rgb(26, 26, 26);
+}
+
+.search {
+    height: 28px;
+    width: 28px;
+    border-radius: 0px 50px 50px 0px;
+    padding-top: 10px;
+    position: relative;
+    left: 58px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 12px;
+    background-color: rgb(26, 26, 26);
+}
+
+.searchbar {
+    border: none;
+    height: 48px;
+    width: 420px;
+    position: relative;
+    right: -105px;
+    background-color: rgb(26, 26, 26);
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navsacs {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(157, 155, 155);
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: -1px;
+    
+
+}
+
+.butban {
+    text-decoration: none;
+    color: rgb(157, 155, 155);
+}
+.butban2 {
+    text-decoration: none;
+    color: rgb(157, 155, 155);
+    cursor: pointer;
+    display: inline-block;
+    
+    text-decoration: none;
+}
+
+.navsacs :hover {
+    /* font-size: 17px; */
+    color: rgb(217, 214, 214);
+}
+
+.mainbody {
+    display: flex;
+    gap: 6px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.left {
+    width: 25%;
+    height: 85vh;
+    border: 1px solid rgb(165, 114, 3);
+    /* border-radius: 5px; */
+    background-color: rgb(11, 66, 65);
+    box-shadow: inset 10px 10px 500px rgb(3, 28, 18);
+    overflow: scroll;
+
+
+    /* For WebKit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        width: 4px;
+        /* Width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none;
+        /* Background color of the scrollbar track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 2px;
+        background: none;
+        /* Color of the scrollbar thumb */
+        border-radius: 7px;
+        /* Roundness of the scrollbar thumb */
+        height: 50px;
+        /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+    }
+
+    /* ::-webkit-scrollbar-thumb:hover {
+        /* background: #666; */
+    /* Color of the scrollbar thumb when hovered
+    }  */
+}
+
+.leftheader {
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.leftheader h1 {
+    color: rgb(157, 122, 46);
+    font-size: 36px;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.right {
+    width: 75%;
+    height: 85vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-bottom: 1px solid rgb(203, 203, 203);
+
+
+    /* display: flex; */
+    /* background-color: azure; */
+    /* For WebKit browsers (Chrome, Safari) */
+    ::-webkit-scrollbar {
+        width: 0px;
+        /* Width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none;
+        /* Background color of the scrollbar track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 0px;
+        background: none;
+        /* Color of the scrollbar thumb */
+        border-radius: 0px;
+        /* Roundness of the scrollbar thumb */
+        height: 0px;
+        /* Set a fixed height for the thumb (WebKit browsers support this indirectly) */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: none;
+        /* Color of the scrollbar thumb when hovered */
+    }
+}
+
+.mainfoot {
+    width: auto;
+    height: 300px;
+    position: relative;
+    z-index: 0;
+    place-content: center;
+    margin-top: 20px;
+}
+
+.mainbodyfoot {
+    margin-left: 20px;
+    margin-right: 22px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    height: 87%;
+    width: auto;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.leftfoot {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    /* border: 1px solid rgb(255, 255, 254); */
+
+}
+
+.leftfoot h1 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(157, 155, 155);
+    font-size: 25px;
+    position: relative;
+    bottom: 14px;
+    right: 3px;
+}
+
+.leftfoot :hover {
+    color: rgb(217, 214, 214);
+}
+
+.footerlogo {
+    height: 50px;
+    width: auto;
+}
+
+.midfoot {
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.midfoot h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(157, 155, 155);
+    font-size: 16px;
+    text-align: right;
+    position: relative;
+    /* font-weight: lighter; */
+}
+
+.midfoot ul {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(157, 155, 155);
+    font-size: 14px;
+    position: relative;
+    font-weight: lighter;
+    text-align: left;
+    position: relative;
+    right: 5px;
+}
+
+.listitems :hover {
+    color: rgb(217, 214, 214);
+}
+
+.midfoothead {
+    display: flex;
+    gap: 200px;
+
+}
+
+.footerlogos {
+    display: flex;
+    gap: 8px;
+    position: relative;
+    top: 145px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    width: 90px;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: grey;
+    font-size: 14px;
+    text-align: left;
+    padding-right: 4px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+    margin-left: 5px;
+    margin-top: 10px;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+button.butban2{
+    background: none;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgb(157, 155, 155);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.searchbarwhole{
+    position: relative;
+    right: 58px;
+}
